@@ -1,6 +1,3 @@
-/**
- * Author Mounis Bhat
- */
 import { useState, useRef } from "react";
 //Adding Style
 import "./styles/App.scss";
