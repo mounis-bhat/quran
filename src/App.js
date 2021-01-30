@@ -7,6 +7,7 @@ import Player from "./components/Player";
 import Song from "./components/Song";
 import Library from "./components/Library";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 //Importing utility
 import data from "./data";
@@ -67,6 +68,7 @@ function App() {
         setSongs={setSongs}
         libraryStatus={libraryStatus}
       />
+      <Footer />
       <audio
         onTimeUpdate={timeUpdateHandler}
         onLoadedMetadata={timeUpdateHandler}
