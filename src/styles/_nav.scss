@@ -10,14 +10,10 @@ nav {
     border: 2px solid rgb(65, 65, 65);
     padding: 0.5rem;
     transition: all 0.3s ease;
-    &:hover {
-      background: rgb(65, 65, 65);
-      color: white;
+    svg {
+      margin-left: 10px;
     }
   }
-}
-svg {
-  margin-left: 10px;
 }
 
 @media screen and (max-width: 768px) {
